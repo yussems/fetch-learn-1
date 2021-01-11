@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"faruk",
+        "lastname":"turkoglu",
+        "job":"Developer"
+    },
+    {
+        "id":2,
+        "name":"belkız",
+        "lastname":"turkoglu",
+        "job":"Veteriner"
+    },
+    {
+        "id":3,
+        "name":"Nurhayat",
+        "lastname":"turkoglu",
+        "job":"Houswife"
+    },
+    {
+        "id":4,
+        "name":"Hasan Hüseyin",
+        "lastname":"turkoglu",
+        "job":"Carpenter"
+    }
+]

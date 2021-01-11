@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FETCH API SEND BOX</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-4 mb-4">FETCH API SENDBOX</h1>
+        <div class="d-flex">
+            <button class="btn btn-primary m-4" id="getText">Get Text</button>
+            <button class="btn btn-success m-4" id="userJson">User Json</button>
+            <button class="btn btn-warning m-4" id="fetch">data  çekme</button>
+        </div>
+        <hr>
+        <div id="output"></div>
+        <form id="addPost">
+            
+                <div >
+                    <input type="text" id="title"  class="form-control" value="" placeholder="bura yaz">
+                </div>
+                <br>
+                <div >
+
+                    <textarea id="body" class="form-control" placeholder="Body"></textarea>
+                </div>
+                <br>
+                <input type="submit" class="btn btn-primary " value="veri gönder">
+            
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
